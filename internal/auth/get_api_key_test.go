@@ -57,7 +57,7 @@ func TestGetAPIKey(t *testing.T) {
 				if err == nil {
 					t.Fatal("expected an error")
 				}
-				//return
+				return
 			}
 
 			if err != nil {
